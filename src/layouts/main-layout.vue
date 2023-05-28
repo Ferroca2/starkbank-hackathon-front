@@ -13,14 +13,13 @@ $q.dark.set(true);
             class="bg-dark"
         >
             <q-toolbar>
-                <q-toolbar-title>
+                <q-toolbar-title class="text-weight-bold">
                     <q-img
-                        src="../assets/logo.png"
+                        src="../assets/logo2.png"
                         height="30px"
-                        width="30px"
+                        width="200px"
                         class="q-mr-sm"
                     />
-                    Stark Dol
                 </q-toolbar-title>
             </q-toolbar>
         </q-header>

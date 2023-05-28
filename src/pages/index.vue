@@ -60,7 +60,7 @@ async function transfer() {
 <template>
     <q-page class="page column full-height align-center q-pa-xl">
         <div class="text-center text-h3 text-weight-bold q-mt-xl">
-            Transferência <span class="text-blue-7">internacional</span>
+            Transferência <span class="text-accent">internacional</span>
         </div>
         <div class="row justify-center align-center">
             <q-form
@@ -74,7 +74,7 @@ async function transfer() {
                         outlined
                         label="Agencia e Banco"
                         type="text"
-                        color="blue-7"
+                        color="accent"
                     >
                         <template #prepend>
                             <q-icon :name="matAccountBalance" />
@@ -85,7 +85,7 @@ async function transfer() {
                         outlined
                         label="Conta"
                         type="number"
-                        color="blue-7"
+                        color="accent"
                     >
                         <template #prepend>
                             <q-icon :name="matAccountBalanceWallet" />
@@ -96,7 +96,7 @@ async function transfer() {
                         outlined
                         label="Quantia em dólar"
                         type="number"
-                        color="blue-7"
+                        color="accent"
                     >
                         <template #prepend>
                             <q-icon :name="matAttachMoney" />
@@ -104,7 +104,7 @@ async function transfer() {
                     </q-input>
                     <q-btn
                         class="form__submit"
-                        color="blue-7"
+                        color="accent"
                         :loading="loading"
                         rounded
                         :disable="loading"
